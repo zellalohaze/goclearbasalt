@@ -1,3 +1,0 @@
-# notes
-
-Keep it small.

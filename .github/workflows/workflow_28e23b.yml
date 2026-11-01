@@ -1,0 +1,12 @@
+name: CI
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  validate-stage:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare workspace
+        run: echo "ready"
